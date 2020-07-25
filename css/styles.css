@@ -382,7 +382,9 @@ margin-right: 10px;
 }
 
 .social-list-item-link:hover,
-.social-list-item-link:focus {
+.social-list-item-link:focus,
+.icon-social-list-link:hover,
+.icon-social-list-link:focus {
   background-color: var(--accent-color);
 }
 
@@ -452,6 +454,7 @@ display: flex;
 .footer-contenta{
 padding-top: 60px;
 padding-bottom: 60px;
+
 }
 .footer-text-social {
     padding-top: 72px;
@@ -506,6 +509,32 @@ margin-right: auto;
 margin-right: 10px;
 }
 
+.icon-social-list-link {
+display: flex;
+justify-content: center;
+align-items: center;
+width: 44px;
+height: 44px;
+border-radius: 50%;
+background-color: rgba(255, 255, 255, 0.1);
+background-position: center;
+background-repeat: no-repeat;
+}
+    
+.icon-social-list-footer {
+width: 20px;
+height: 20px;
+fill: var(--title-dark-theme-color);
+}
+
+.footer-podpiska {
+padding-top: 72px;
+padding-bottom: 100px;
+}
+
+.footer-text-social {
+margin-right: 94px;  
+}
 /*Портфолио-Фильтр-Примеры работ*/
 .button-list{
 display: flex;
