@@ -6,6 +6,8 @@
     --title-light-theme-color: #212121;
     --text-light-theme-color: #757575;
     --fon-color: #F5F4FA;
+    --siriy-color: #afb1b8;
+    --footer-color: #2F303A;
     
 }
 
@@ -323,7 +325,7 @@ margin-right: 30px;
 
 /*НАША КОМАНДА*/
 .comand{
-    background: #F5F4FA;
+    background: var(--fon-color);
 }
 
 .comand-list {
@@ -338,7 +340,7 @@ margin-right: 30px;
 .comand-list-item {
 width: 270px;
 height: 422px;
-background: #FFFFFF;
+background: var(--title-dark-theme-color);
 box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12);
 border-radius: 0px 0px 4px 4px;
 }
@@ -391,7 +393,7 @@ align-items: center;
 width: 44px;
 height: 44px;
 border-radius: 50%;
-background-color: #ffffff;
+background-color: var(--title-dark-theme-color);
 background-position: center;
 background-repeat: no-repeat;
 }
@@ -399,11 +401,11 @@ background-repeat: no-repeat;
 .icon-social-list-item {
 width: 20px;
 height: 20px;
-fill: #AFB1B8;
+fill: var(--siriy-color);
 }
 
 .social-list-item-link:hover .icon-social-list-item {
-fill: #ffffff;
+fill: var(--title-dark-theme-color);
 }
 
 /*Постоянные клиенты*/
@@ -421,20 +423,26 @@ fill: #ffffff;
     display: flex;
     width: 170px;
     height: 90px;
-    border: 1px solid #afb1b8;
+    border: 1px solid var(--siriy-color);
     border-radius: 4px;
     justify-content: center;
     align-items: center; 
+    fill: var(--siriy-color);
+}
+
+.client-link:hover {
+    border-color: var(--accent-color);
+    fill: var(--accent-color);
 }
 
 /*Футер*/
 
 .footer {
-background: #2F303A;
+background: var(--footer-color);
 }
 
 .footer .logo {
-  color: #FFFFFF;
+  color: var(--title-dark-theme-color);
 }
 
 .footer-content {
@@ -514,7 +522,7 @@ text-align: center;
 letter-spacing: 0.03em;
 color: var(--title-light-theme-color);
 padding: 6px 22px;
-background: #F5F4FA;
+background: var(--fon-color);
 border-radius: 4px;
 border: 1px solid transparent;
 }
@@ -554,7 +562,7 @@ flex-wrap: wrap;
 width: calc((100% - 60px) / 3);
 margin-right: 30px;
 margin-bottom: 30px;
-background: #FFFFFF;
+background: var(--title-dark-theme-color);
 box-sizing: border-box;
 }
 
