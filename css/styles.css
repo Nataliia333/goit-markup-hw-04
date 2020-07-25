@@ -623,3 +623,8 @@ border-bottom: 1px solid #eeeeee;
 .galery {
 padding-bottom: 94px;
 }
+
+.portfolio-galery-list:hover,
+.portfolio-galery-list:focus {
+box-shadow: 1px 4px 6px rgba(0, 0, 0, 0.16), 0px 4px 4px rgba(0, 0, 0, 0.06), 0px 1px 1px rgba(0, 0, 0, 0.12);
+}
